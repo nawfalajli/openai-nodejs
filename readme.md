@@ -184,7 +184,7 @@ POST API : /openai/sql_request
 ```
 
 **Write a Python docstring.**
-```json
+```javascript
 POST API : /openai/python_docstring
 > Request Body
   {
