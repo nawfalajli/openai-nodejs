@@ -48,14 +48,14 @@ const response = await openai.createCompletion({
 
 Corrects sentences into standard English API,
 
-```json
+```javascript
 Body
 {
     "prompt" : "i am pgogrammmer i  haavee nooo lifeeeee"
 }
 ```
 Response
-```json
+```javascript
 {
     "success": true,
     "data": {
@@ -84,7 +84,7 @@ Response
 # Auth
 
 **generate image.**
-```json
+```javascript
 POST API : /openai/generate_image
 > Request Body
   {
@@ -94,7 +94,7 @@ POST API : /openai/generate_image
 ```
 
 **Answer questions based on existing knowledge.**
-```json
+```javascript
 POST API : /openai/answer_questions
 > Request Body
   {
@@ -104,7 +104,7 @@ POST API : /openai/answer_questions
 ```
 
 **Create product names from examples words. Influenced by a community prompt..**
-```json
+```javascript
 POST API : /openai/product_names
 > Request Body
   {
@@ -114,7 +114,7 @@ POST API : /openai/product_names
 ```
 
 **Corrects sentences into standard English.**
-```json
+```javascript
 POST API : /openai/corrects_sentences
 > Request Body
   {
@@ -124,7 +124,7 @@ POST API : /openai/corrects_sentences
 ```
 
 **Translate natural language to SQL queries.**
-```json
+```javascript
 POST API : /openai/text_to_sqlquery
 > Request Body
   {
@@ -134,7 +134,7 @@ POST API : /openai/text_to_sqlquery
 ```
 
 **Extract keywords from a block of text.**
-```json
+```javascript
 POST API : /openai/text_to_keywords
 > Request Body
   {
@@ -144,7 +144,7 @@ POST API : /openai/text_to_keywords
 ```
 
 **Convert simple JavaScript expressions into Python..**
-```json
+```javascript
 POST API : /openai/javascript_to_python
 > Request Body
   {
@@ -154,7 +154,7 @@ POST API : /openai/javascript_to_python
 ```
 
 **Provide a topic and get study notes.**
-```json
+```javascript
 POST API : /openai/get_study_notes
 > Request Body
   {
@@ -164,7 +164,7 @@ POST API : /openai/get_study_notes
 ```
 
 **Create interview questions.**
-```json
+```javascript
 POST API : /openai/interview_questions
 > Request Body
   {
@@ -174,7 +174,7 @@ POST API : /openai/interview_questions
 ```
 
 **SQL request.**
-```json
+```javascript
 POST API : /openai/sql_request
 > Request Body
   {
